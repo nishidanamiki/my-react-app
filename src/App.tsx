@@ -1,5 +1,15 @@
+// 作成したコンポーネントをインポート
+import WelcomeMessage from "./components/WelcomeMessage";
+import UserProfile from "./components/UserProfile";
+
 function App() {
-  return <div>{/* ここにコンポーネントを配置していく */}</div>;
+  return (
+    <>
+      <WelcomeMessage />
+      <UserProfile />
+      <UserProfile />
+    </>
+  );
 }
 
 export default App;
