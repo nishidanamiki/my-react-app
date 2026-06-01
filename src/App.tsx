@@ -16,7 +16,12 @@ function App() {
       </Card>
 
       <Card>
-        <UserProfile name="鈴木 花子" hobby="読書" />
+        <UserProfile name="鈴木 花子" age={25} hobby="読書" />
+      </Card>
+
+      <Card>
+        <h2>お知らせ</h2>
+        <p>ここにお知らせが入ります。</p>
       </Card>
     </>
   );
