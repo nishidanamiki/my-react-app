@@ -110,7 +110,7 @@ code {
   background: var(--code-bg);
 }
 
-.user-profile {
+.card {
   border: 1px solid #ccc;
   padding: 16px;
   margin-top: 16px;
