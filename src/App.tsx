@@ -3,6 +3,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import UserProfile from "./components/UserProfile";
 import Card from "./components/Card";
 import Counter from "./components/Counter";
+import NameForm from "./components/NameForm";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
       <Card>
         <Counter />
+      </Card>
+
+      <Card>
+        <NameForm />
       </Card>
     </>
   );
