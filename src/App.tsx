@@ -4,6 +4,7 @@ import UserProfile from "./components/UserProfile";
 import Card from "./components/Card";
 import Counter from "./components/Counter";
 import NameForm from "./components/NameForm";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
       <Card>
         <NameForm />
+      </Card>
+
+      <Card>
+        <TodoList />
       </Card>
     </>
   );
