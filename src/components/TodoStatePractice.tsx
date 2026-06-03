@@ -5,7 +5,7 @@ type Todo = {
   text: string;
 };
 
-function TodoList() {
+function TodoStatePractice() {
   const [todos, setTodos] = useState<Todo[]>([
     { id: 1, text: "Reactを学ぶ" },
     { id: 2, text: "寝る" },
@@ -50,4 +50,4 @@ function TodoList() {
   );
 }
 
-export default TodoList;
+export default TodoStatePractice;
