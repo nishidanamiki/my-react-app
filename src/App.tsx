@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Counter from "./components/Counter";
 import NameForm from "./components/NameForm";
 import TodoStatePractice from "./components/TodoStatePractice";
+import TodoApp from "./components/TodoApp";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
 
       <Card>
         <TodoStatePractice />
+      </Card>
+
+      <Card>
+        <TodoApp />
       </Card>
     </>
   );
