@@ -11,6 +11,10 @@ function EffectPractice() {
     console.log("countが変わった:", count);
   }, [count]);
 
+  useEffect(() => {
+    document.title = `count: ${count}`;
+  }, [count]);
+
   return (
     <div>
       <p>count: {count}</p>
