@@ -1,7 +1,7 @@
-import EffectPractice from "./components/EffectPractice";
+import UserInfo from "./components/UserInfo";
 
 function App() {
-  return <EffectPractice />;
+  return <UserInfo />;
 }
 
 export default App;
