@@ -1,7 +1,11 @@
-import UserInfo from "./components/UserInfo";
+import CounterComponent from "./components/CounterComponent";
 
 function App() {
-  return <UserInfo />;
+  return (
+    <>
+      <CounterComponent />
+    </>
+  );
 }
 
 export default App;
