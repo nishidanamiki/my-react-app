@@ -1,9 +1,9 @@
-import CounterComponent from "./components/CounterComponent";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
   return (
     <>
-      <CounterComponent />
+      <ThemeSwitcher />
     </>
   );
 }
