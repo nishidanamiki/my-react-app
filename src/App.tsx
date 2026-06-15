@@ -1,10 +1,10 @@
-import { UserList } from "./components/UserList";
+import SimpleForm from "./components/SimpleForm";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <UserList />
+      <SimpleForm />
     </>
   );
 }
