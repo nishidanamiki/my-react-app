@@ -1,10 +1,14 @@
-import SimpleForm from "./components/SimpleForm";
+import QueryTodoList from "./components/QueryTodoList";
+import AddTodoForm from "./components/AddTodoForm";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <SimpleForm />
+      <h1>TanStack QueryのTodo一覧</h1>
+
+      <AddTodoForm />
+      <QueryTodoList />
     </>
   );
 }
