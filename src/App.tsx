@@ -1,14 +1,11 @@
-import QueryTodoList from "./components/QueryTodoList";
-import AddTodoForm from "./components/AddTodoForm";
+import ZustandCounter from "./components/ZustandCounter";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1>TanStack QueryのTodo一覧</h1>
-
-      <AddTodoForm />
-      <QueryTodoList />
+      <h1>Zustandの練習</h1>
+      <ZustandCounter />
     </>
   );
 }
