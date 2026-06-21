@@ -1,8 +1,8 @@
-import ZustandTodoList from "./components/ZustandTodoList";
+import { RegisterForm } from "./components/RegisterForm";
 import "./App.css";
 
 function App() {
-  return <ZustandTodoList />;
+  return <RegisterForm />;
 }
 
 export default App;
