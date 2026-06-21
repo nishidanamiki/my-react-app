@@ -1,13 +1,8 @@
-import ZustandCounter from "./components/ZustandCounter";
+import ZustandTodoList from "./components/ZustandTodoList";
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <h1>Zustandの練習</h1>
-      <ZustandCounter />
-    </>
-  );
+  return <ZustandTodoList />;
 }
 
 export default App;
